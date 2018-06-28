@@ -12,16 +12,16 @@ Clone this repo and run static server you love.
 
 ```
 $ git clone git@github.com:mizchi/frontend-starter.git
-cd frontend-starter
+$ cd frontend-starter
 
-// node
+# node
 $ npm install -g http-server
 $ http-server -p 8000
 
-// ruby
+# ruby
 $ ruby -run -e httpd . -p 8000
 
-// ptyhon3
+# ptyhon3
 $ python3 -m http.server 8000
 ```
 
