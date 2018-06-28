@@ -8,9 +8,12 @@ Starter project for frontend learner or handy playground with [trans-loader](htt
 
 ## How to develop
 
-Run static server you love.
+Clone this repo and run static server you love.
 
 ```
+$ git clone git@github.com:mizchi/frontend-starter.git
+cd frontend-starter
+
 // node
 $ npm install -g http-server
 $ http-server -p 8000
@@ -40,3 +43,7 @@ you can indicate version with package.json's dependencies field.
   }
 }
 ```
+
+## LICENSE
+
+MIT
