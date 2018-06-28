@@ -13,7 +13,7 @@
   if (navigator.serviceWorker.controller) {
     run()
   } else {
-    const reg = await navigator.serviceWorker.register("./sw.js");
+    const reg = await navigator.serviceWorker.register("./trans-loader.js");
     await navigator.serviceWorker.ready;
     navigator.serviceWorker.addEventListener('controllerchange', run)
   }
