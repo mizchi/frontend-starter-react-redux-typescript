@@ -11,7 +11,7 @@ Starter project for frontend learner or handy playground with [trans-loader](htt
 Clone this repo and run static server you love.
 
 ```
-$ git clone git@github.com:mizchi/frontend-starter.git
+$ git clone git@github.com:mizchi/frontend-starter.git --depth 1 --single-branch master
 $ cd frontend-starter
 
 # node
@@ -27,7 +27,15 @@ $ python3 -m http.server 8000
 
 and open http://localhost:8000
 
-Edit your code and reload. Enjoy!
+Edit your code and reload.
+
+You can import `npm` modules by ES Modules syntax
+
+```
+import React from 'react'
+```
+
+Enjoy!
 
 ## Version with package.json
 
