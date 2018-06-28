@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <title>trans-loader demo</title>
+  <meta charset="utf8">
+</head>
+
+<body>
+  <div class=root></div>
+  <script type=module>
+(async () => {
+  const run = () => import('./main.js')
+  if (navigator.serviceWorker.controller) {
+    run()
+  } else {
+    const reg = await navigator.serviceWorker.register("./sw.js");
+    await navigator.serviceWorker.ready;
+    navigator.serviceWorker.addEventListener('controllerchange', run)
+  }
+})()
+  </script>
+</body>
+
+</html>
