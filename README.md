@@ -1,16 +1,12 @@
-# frontend-starter-react-redux
+# frontend-starter-react-redux-typescript
 
-trans-loader project with react-redux & flow
+trans-loader project with react-redux & typescript
 
-## Use flowtype
+## Use typescript
 
-```
-$ yarn install
-$ yarn flow
-yarn run v1.7.0
-$ /Users/mz/proj/frontend-starter-react-redux/node_modules/.bin/flow
-No errors!
-```
+Open with your editor. (I recommend vscode to work typescript default)
+
+TODO: Now you have to ignore `An import path cannot end with a '.ts' extension.` error.
 
 ---
 

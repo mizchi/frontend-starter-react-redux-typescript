@@ -12,6 +12,8 @@
   "author": "mizchi <miz404@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^16.4.5",
+    "@types/react-redux": "^6.0.3",
     "flow-bin": "^0.75.0"
   }
 }

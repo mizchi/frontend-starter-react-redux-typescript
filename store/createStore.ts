@@ -4,15 +4,15 @@ import Redux from "redux";
 
 const { Provider } = ReactRedux;
 
-type State = {
+type CounterState = {
   value: number
 };
 
-const initialState: State = {
+const initialState: CounterState = {
   value: 0
 };
 
-const counter = (state: State = initialState, action: any) => {
+const counter = (state: CounterState = initialState, action: any) => {
   switch (action.type) {
     case "counter/add": {
       return { value: state.value + 1 };
@@ -20,6 +20,8 @@ const counter = (state: State = initialState, action: any) => {
   }
   return state;
 };
+
+export type RootState = { counter: CounterState }
 
 const rootReducer = Redux.combineReducers({ counter });
 

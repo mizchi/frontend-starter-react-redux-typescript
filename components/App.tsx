@@ -1,11 +1,11 @@
 // @flow
 import React from "react";
 import ReactRedux from "react-redux";
-import createStore from "../store/createStore";
+import createStore, { RootState } from "../store/createStore.ts";
 
 const { Provider, connect } = ReactRedux;
 
-const App = connect(state => state.counter)(props => {
+const App = connect((state: RootState) => state.counter)(props => {
   return (
     <div>
       value: {props.value}
