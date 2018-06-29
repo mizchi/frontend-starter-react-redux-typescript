@@ -1,6 +1,17 @@
 {
   "dependencies": {
     "react": "16.4.1",
-    "react-dom": "16.4.1"
+    "react-dom": "16.4.1",
+    "react-redux": "5",
+    "redux": "4"
+  },
+  "name": "frontend-starter-react-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mizchi/frontend-starter.git",
+  "author": "mizchi <miz404@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.75.0"
   }
 }
