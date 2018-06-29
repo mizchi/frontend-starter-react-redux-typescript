@@ -1,4 +1,18 @@
-# frontend-starter
+# frontend-starter-react-redux
+
+trans-loader project with react-redux & flow
+
+## Use flowtype
+
+```
+$ yarn install
+$ yarn flow
+yarn run v1.7.0
+$ /Users/mz/proj/frontend-starter-react-redux/node_modules/.bin/flow
+No errors!
+```
+
+---
 
 Starter project for frontend learner or handy playground with [trans-loader](https://github.com/mizchi/trans-loader)
 
